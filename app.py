@@ -34,7 +34,7 @@ def main():
         age = st.text_input("Age, Eg : 23", value=19)
         sex = st.selectbox("Gender: [0: Male, 1: Female]", ["0", "1"], index=0)
         bmi = st.text_input("Bmi [Body Mass Index], Eg:30.90 ", value=23.90)
-        children = st.selectbox("No Of Childrens", ["1", "2", "3", "4","5","6","7","8","9","10"])
+        children = st.selectbox("No Of Childrens", ["0", "1", "2", "3", "4","5","6","7","8","9","10"])
         smoker = st.selectbox("Are You Smoker? [0 : No, 1: Yes]", ["0", "1"], index=0)
         region = st.selectbox("**Region** : **South_West**--:**1**, **South_East**--:**2**, **North_West**--:**3**, **North_East--**:**4**", ["1", "2", "3", "4"], index=0)
         result = ""
