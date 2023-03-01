@@ -45,11 +45,11 @@ def main():
 
     if rad == "About Us":
         if st.button("About"):
-            st.text("Author : Sooraj and Team Dlib")
+            st.text("Author : Sooraj ")
             st.text("model used: RandomForestRegression")
             st.text("Built with Streamlit")
             st.text("This project is performed under hamoye data science internship")
-            st.text("Licenced To : Team Dlib")
+            
 
 if __name__ == '__main__':
     main()
