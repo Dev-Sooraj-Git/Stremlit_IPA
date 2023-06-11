@@ -9,7 +9,6 @@ df = df.drop('index', axis=1)
 df['sex'] = df['sex'].apply({'male':0, 'female':1}.get)
 df['smoker'] = df['smoker'].apply({'yes':1, 'no':0}.get)
 df['region'] = df['region'].apply({'southwest':1, 'southeast':2, 'northwest':3, 'northeast':4}.get)
-
 print(df.head())
 
 # features
